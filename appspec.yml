@@ -1,5 +1,5 @@
 ﻿version: 0.0
-os: window
+os: linux
 files:
   - source: CodeBuild-webAppCD/build_output
     destination: /home/s3-user/aspnetcoreapp
