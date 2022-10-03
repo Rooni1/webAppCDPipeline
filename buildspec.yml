@@ -15,4 +15,5 @@ artifacts:
   files:
     - CodeBuild-SampleCore/build_output/**/*
     - scripts/**/*
+    - appspec.yml
    
