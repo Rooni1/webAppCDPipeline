@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="appspec.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="appspec.yml" />
+  </ItemGroup>
+
 </Project>
