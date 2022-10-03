@@ -15,5 +15,5 @@ artifacts:
   files:
     - CodeBuild-webAppCD/build_output/**/*
     - scripts/**/*
-    
+    - appspec.yml
    
