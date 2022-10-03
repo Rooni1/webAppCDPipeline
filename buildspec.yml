@@ -13,7 +13,8 @@ phases:
       - echo "Deployed to s3"
 artifacts:
   files:
-    - CodeBuild-webAppCD/build_output/**/*
-    - scripts/**/*
-    - appspec.yml
+    - '**/*'
+    - ./build_output
+   
+   
    
