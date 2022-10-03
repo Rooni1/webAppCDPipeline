@@ -8,9 +8,7 @@ phases:
     commands:
       - echo Build started on `date`
       - dotnet publish -c release -o ./build_output webAppCD.csproj
-  post_build:
-    commands:
-      - echo "Deployed to s3"
+ 
 artifacts:
   files:
     - CodeBuild-webAppCD/build_output/**/*
