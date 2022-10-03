@@ -13,5 +13,6 @@ phases:
       - echo "Deployed to s3"
 artifacts:
   files:
-       - '/**/*'
+    - CodeBuild-SampleCore/build_output/**/*
+    - scripts/**/*
    
